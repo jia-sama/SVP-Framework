@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # ==========================================
-# 0. 严格锁死随机种子 (MPS 兼容版)
+# 0. 严格锁死随机种子 (MPS 兼容)
 # ==========================================
 def seed_everything(seed=1024):
     random.seed(seed)
@@ -163,7 +163,7 @@ def run_rigorous_walk_forward():
         print(f"[*] Trained [0:{start}] -> Test [{start}:{end}] | DA: {accuracy_score(y_te_bin, preds_np) * 100:.1f}%")
 
     # ==========================================
-    # 3. 顶级金融实证学术评估 (Academic Evaluation)
+    # 3. 金融实证学术评估 (Academic Evaluation)
     # ==========================================
     y_true_bin_all = np.array(y_true_bin_all)
     y_true_ret_all = np.array(y_true_ret_all)

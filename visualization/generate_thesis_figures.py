@@ -18,10 +18,10 @@ warnings.filterwarnings("ignore")
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # ==========================================
-# 0. 全局调色板与工程配置 (色彩大升级)
+# 0. 全局调色板与工程配置
 # ==========================================
-COLOR_MAIN = '#1565C0'  # 经典学术皇家蓝 (更明亮通透，告别沉闷发黑)
-COLOR_SEC = '#F57C00'  # 学术橙色 (极佳的互补色)
+COLOR_MAIN = '#1565C0'  # 经典学术皇家蓝
+COLOR_SEC = '#F57C00'  # 学术橙色
 COLOR_BG = '#9E9E9E'  # 高级灰色
 COLOR_DANGER = '#D32F2F'  # 警示红色
 
